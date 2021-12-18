@@ -5,6 +5,7 @@ install:
   - "yarn prep"
 script:
   - "yarn build"
+  - "mkdir build"
   - "cp -r dist build/dist"
   - "cp -r saved_model_* build/"
   - "cp -r images build/images"
