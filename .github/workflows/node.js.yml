@@ -30,5 +30,6 @@ jobs:
         steps: |
           install
           script
+          deploy
       env:
         TRAVIS_PHP_VERSION: ${{ matrix.php-versions }}
